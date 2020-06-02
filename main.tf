@@ -15,7 +15,7 @@ resource "azurerm_resource_group" "example" {
 }
 resource "azurerm_virtual_network" "myterraformnetwork" {
     name                = "INF-UKS-VNET"
-    address_space       = ["10.240.0.0/21"]
+    address_space       = ["10.230.0.0/21"]
     location            = "uk south"
     resource_group_name = "RG-INF-UKS"
 
@@ -26,6 +26,8 @@ resource "azurerm_virtual_network" "myterraformnetwork" {
 # Where are my changes!
 # Hello
 # Test
+#Test1
+
 
 
 # Create a resource group
