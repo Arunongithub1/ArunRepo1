@@ -41,7 +41,7 @@ resource "azurerm_resource_group" "example1" {
 }
 resource "azurerm_virtual_network" "myterraformnetwork1" {
     name                = "DEV-UKS-VNET"
-    address_space       = ["10.250.8.0/21"]
+    address_space       = ["10.210.0.0/21"]
     location            = "uk south"
     resource_group_name = "RG-DEV-UKS"
 
